@@ -1,0 +1,46 @@
+body{
+    background: url('../images/bg.jpg'); /* CSS 3*/
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 2px;
+}
+
+figure{
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    display: inline-block;
+}
+
+section{
+    width: 25%;
+    height: 300px;
+    margin: 100px auto;
+    background: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #414f57;
+    font-weight: 400;
+}
+
+p{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+img{
+    border-radius: 100%;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+    body{
+        background: url(../images/bg.jpg);
+        background-color: silver;
+        margin: 10% 30%;
+    }
+
+    fieldset{
+        
+        padding: 10px;
+        background-color: white;
+    }
+
+    </style>
+</head>
+<body>
+    <fieldset>
+    <form action="" method="POST">
+        <input type="email" name="Username" placeholder="Username" ><br>
+        <input type="password" name="Password" placeholder="Password"><br>
+        
+        <button>submit</button><br>
+
+        <label>Gender</label>
+        <input type="radio" name="Gender"> Male
+        <input type="radio" name="Gender"> Female<br>
+
+        <label>Choices: </label>
+        <input type="checkbox" name="not_yours"> Not yours
+        <input type="checkbox" name="someone_else's"> Someone else
+        <input type="checkbox" name="forced"> Forced<br>
+
+        <label>Fixed Choices: </label>
+        <select name="fixed_choices" id="fixed_choices">
+
+            <option value="This">This</option>
+            <option value="That">That</option>
+            <option value="What's been done">What's been done</option>
+            <option value="Nothing new">Nothing new</option>
+
+        </select>
+
+        <fieldset>
+            <legend>Personal Information: </legend>
+            
+            First Name <br> <input type="text" maxlength="10"><br>
+            Last Name <br> <input type="text" maxlength="10"> <br>
+            University <br> <input type="text" ><br>
+            Password <br> <input type="password"><br>
+
+
+
+            <label>Gender</label><br>
+            <input type="radio" name="Gender"> Male
+            <input type="radio" name="Gender"> Female<br>
+
+            <label>Skills</label><br>
+            <input type="checkbox" name="java"> Java
+            <input type="checkbox" name="spring"> Spring
+            <input type="checkbox" name="javaScript"> JavaScript<br>
+
+            <input list="shat_choices" placeholder="Shit Choices">
+            <datalist id="shat_choices">
+                <option value="This">
+                <option value="That">
+                <option value="What's been done">
+                <option value="Nothing new">
+            </datalist>
+        
+
+        
+        </fieldset><br>
+        <input list="shat_choices" placeholder="Shit Choices">
+        <datalist id="shat_choices">
+            <option value="This">
+            <option value="That">
+            <option value="What's been done">
+            <option value="Nothing new">
+        </datalist>
+
+        
+
+
+
+    </form>
+</fieldset>
+</body>
+</html>

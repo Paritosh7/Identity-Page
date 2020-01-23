@@ -60,16 +60,7 @@ i{
     line-height: 50px !important;
 }
 
-.fa-twitter:hover{
-    border-color: red;
-    text-shadow: 0px 0px 1px red;
-}
-
-.fa-instagram:hover{
-    border-color: red;
-    text-shadow: 0px 0px 1px red;
-}
-
+.fa-twitter:hover, .fa-instagram:hover, 
 .fa-facebook:hover{
     border-color: red;
     text-shadow: 0px 0px 1px red;
